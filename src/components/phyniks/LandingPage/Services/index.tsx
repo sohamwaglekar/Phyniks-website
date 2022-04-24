@@ -1,4 +1,4 @@
-import s1 from "../../../../asstsets/ServiceIcons/minecraft-front-premium.png";
+import s1 from "../../../../assets/ServiceIcons/minecraft-front-premium.png";
 import s2 from "../../../../assets/ServiceIcons/computer-front-premium.png";
 import s3 from "../../../../assets/ServiceIcons/bulb-front-premium.png";
 import s4 from "../../../../assets/ServiceIcons/color-palatte-front-premium.png";
@@ -34,7 +34,7 @@ export default function Index() {
         <div className="mx-auto px-16 grid grid-cols-3 gap-4 mt-20">
           <div className="mx-auto relative w-3/4">
             <div className="absolute top-0 flex justify-center w-full">
-              {/* <Image src={s1} className="w-20" /> */}
+              <Image src={s1} className={`${style.serviceimg}`} alt=""/>
             </div>
             <div className=" mt-10  shadow-md pt-3 px-3 pb-12 text-center rounded-lg">
               <p className={`${style.servicetext} mt-12 mb-3 text-sm leading-9`}>APP DEVELOPMENT</p>
@@ -48,7 +48,7 @@ export default function Index() {
           </div>
           <div className="mx-auto relative w-3/4">
             <div className="absolute top-0 flex justify-center w-full rounded-lg">
-              {/* <Image src={s2} className="w-20" /> */}
+              <Image src={s2} className={`${style.serviceimg}`} alt="" />
             </div>
             <div className=" mt-10  shadow-md pt-3 px-3 pb-12  text-center">
               <p className={`${style.servicetext} mt-12 mb-3 text-sm leading-9`}>WEB DEVELOPMENT</p>
@@ -62,7 +62,7 @@ export default function Index() {
           </div>
           <div className="mx-auto relative w-3/4">
             <div className="absolute top-0 flex justify-center w-full rounded-lg">
-              {/* <Image src={s3} className="w-20" /> */}
+              <Image src={s3} className={`${style.serviceimg}`} alt=""/>
             </div>
             <div className=" mt-10  shadow-md pt-3 px-3 pb-12  text-center">
               <p className={`${style.servicetext} mt-12 mb-3 text-sm leading-9`}>ARTIFICIAL INTELLIGENCE</p>
@@ -78,7 +78,7 @@ export default function Index() {
         <div className=" px-16 grid grid-cols-3 gap-4 mt-20">
           <div className="mx-auto relative w-3/4">
             <div className="absolute top-0 flex justify-center w-full">
-              {/* <Image src={s4} className="w-20" /> */}
+              <Image src={s4} className={`${style.serviceimg}`} alt=""/>
             </div>
             <div className=" mt-10  shadow-md pt-3 px-3 pb-12 text-center rounded-lg">
               <p className={`${style.servicetext} mt-12 mb-3 text-sm leading-9`}>DESIGN</p>
@@ -92,7 +92,7 @@ export default function Index() {
           </div>
           <div className="mx-auto relative w-3/4">
             <div className="absolute top-0 flex justify-center w-full rounded-lg">
-              {/* <Image src={s5} className="w-20" /> */}
+              <Image src={s5} className={`${style.serviceimg}`} alt=""/>
             </div>
             <div className=" mt-10  shadow-md pt-3 px-3 pb-12  text-center">
               <p className={`${style.servicetext} mt-12 mb-3 text-sm leading-9`}>MARKETING</p>
@@ -106,7 +106,7 @@ export default function Index() {
           </div>
           <div className="mx-auto relative w-3/4">
             <div className="absolute top-0 flex justify-center w-full rounded-lg">
-              {/* <Image src={s6} className="w-20" /> */}
+              <Image src={s6} className={`${style.serviceimg}`} alt=""/>
             </div>
             <div className=" mt-10  shadow-md pt-3 px-3 pb-12  text-center">
               <p className={`${style.servicetext} mt-12 mb-3 text-sm leading-9`}>SUPPORT & MAINTENANCE</p>

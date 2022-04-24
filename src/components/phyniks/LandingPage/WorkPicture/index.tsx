@@ -1,12 +1,13 @@
 import blogcover from "../../../../assets/images/blogcover.png";
 import { Button } from "react-bootstrap";
 import style from "../../../../../styles/Landing.module.css";
+import Image from 'next/image';
 
 export default function Index() {
     return (
         <div>
-            <div className="{style.wework} mt-12 relative h-500px">
-        {/* <Image src={blogcover} className="w-full" /> */}
+            <div className="{style.wework} relative h-500px">
+        <Image src={blogcover} className="w-full" alt=""/>
 
         <div className=" absolute top-1/3 w-full flex justify-center">
           <div className="border bg-white pt-4 py-12 px-8 w-1/4 text-center mx-auto">

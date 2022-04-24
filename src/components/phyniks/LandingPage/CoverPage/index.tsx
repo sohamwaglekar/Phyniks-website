@@ -2,10 +2,11 @@ import style from '../../../../../styles/Landing.module.css';
 export default function Index() {
   return (
     <div>
-      <div className='bg-white py-20'>
+      <div className='bg-white pb-20'>
         <div className='bg-white w-1/2 mx-auto'>
           <p className='text-xl text-gray-500 mb-0 pl-4'>Crafting</p>
-          {/* <p className={`${style.Ideas} text-xl`}>IDEAS</p> */}
+          <p className={`${style.Ideas} text-xl`}>IDEAS</p>
+          
           <p className='text-3xl font-bold pl-4'>TO LIFE</p>
         </div>
       </div>

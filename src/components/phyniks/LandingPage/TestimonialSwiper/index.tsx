@@ -23,7 +23,7 @@ export default function Index() {
       clickable: true,
     }}
     modules={[FreeMode, Pagination]}
-    className={`mySwiper {style.testswiper} {style.h360px}`}
+    className={`mySwiper ${style.testswiper} ${style.h360px}`}
   >
     <SwiperSlide>
        
