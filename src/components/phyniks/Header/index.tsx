@@ -32,16 +32,7 @@ export default function Index() {
                 }`}
                 onClick={(e) => onNavCLick(e, el)}
               >
-                {/* {el.label} */}
-                {/* <h1
-                  className={`${
-                    activeLink === el.navPanelValue
-                      ? `  ${styles.myunderlinediv} `
-                      : ``
-                  }`}
-                >
-                  {el.label}
-                </h1> */}
+                {el.label}
               </div>
             );
           })}
