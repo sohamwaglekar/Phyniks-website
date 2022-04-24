@@ -27,13 +27,13 @@ export default function Index() {
                 key={index}
                 className={`${
                   activeLink === el.navPanelValue
-                    ? `${styles.navbarhead} cursor-pointer  `
+                    ? `${styles.navbarhead} cursor-pointer underline `
                     : `${styles.navbarhead} cursor-pointer`
                 }`}
                 onClick={(e) => onNavCLick(e, el)}
               >
                 {/* {el.label} */}
-                <h1
+                {/* <h1
                   className={`${
                     activeLink === el.navPanelValue
                       ? `  ${styles.myunderlinediv} `
@@ -41,7 +41,7 @@ export default function Index() {
                   }`}
                 >
                   {el.label}
-                </h1>
+                </h1> */}
               </div>
             );
           })}
