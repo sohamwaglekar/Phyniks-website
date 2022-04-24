@@ -1,176 +1,173 @@
 .firsttext {
-    font-family: "Roboto Condensed";
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-  
-    /* or 300% */
-  
-    letter-spacing: 0.2em;
-  
-    color: #000000;
-  }
-  .secondtext {
-    font-family: "Roboto Condensed";
-    font-style: normal;
-    font-weight: 500;
-    font-size: 34px;
-  
-    /* identical to box height, or 118% */
-  
-    letter-spacing: 0.2em;
-  
-    color: #9A9A9A;
-  }
-  
-  .thirdtext {
-    font-family: "Roboto";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 130px;
-    
-    /* or 77% */
-  
-    letter-spacing: 0.1em;
-    line-height: 100px;
-    /* or 77% */
-    
-    display: flex;
-    align-items: center;
-    color: #FFFFFF;
-  }
-  .workbox {
-    background: linear-gradient(
-      180deg,
-      #f3f3f3 -35.15%,
-      rgba(234, 234, 234, 0) 85.6%
-    );
-  }
-  .worktext {
-    font-weight: 800;
-    font-size: 30px;
-    
-    color: rgba(0, 0, 0, 0.6);
-  }
-  .worksubtext {
-    font-weight: 400;
-    font-size: 14px;
-    letter-spacing: 0.1em;
-    text-transform: capitalize;
-    color: rgba(0, 0, 0, 0.7);
-  }
-  .workbutton {
-    background-color: white !important;
-    border-radius: 9999px;
-  }
-  .workbutton:hover {
-    background-color: #6c757d !important;
-  }
-  .w-96percent {
-    width: 96%;
-  }
-  .servicetext{
-    font-weight: 700;
-    font-size: 16px;
-    
-    color: rgba(0, 0, 0, 0.6);
-  }
-  .testitext {
-    font-size: 30px;
-  
-    color: #ffffff;
-  
-    text-align: center;
-    letter-spacing: 0.2em;
-    font-weight: 600;
-  }
-  .testtext2 {
-    font-size: 24px;
-    letter-spacing: 0.1em;
-  
-    color: #ffffff;
-  }
-  .tt3 {
-    color: rgba(255, 255, 255, 0.7);
-    font-weight: 400;
-    font-size: 14px;
-  }
-  .text8 {
-    font-size: 5rem;
-  }
-  .text4 {
-    font-size: 3rem;
-  }
-  .ls1 {
-    letter-spacing: 1rem;
-  
-  }
-  .h-500px{
-    height: 500px;
-  }
-  .topworkswiper .swiper-slide img {
-    display: block;
-    width: 100%;
-    height: 8rem;
-    
-    object-fit: contain;
-  }
-  .workimgbox{
-    border: 4px solid rgba(90, 90, 90, 0.05);
-  }
-  .topworkswiper{
-    top: 250px;
-  }
-  .topworkswiper .swiper{
-    height: 250px;
-  }
-  .h-600px{
-    height: 500px;
-  }
-  .swiper-pagination-bullet-active {
-    background-color: #969696 !important;
-    
-  }
-  .topworkswiper .swiper-pagination-bullet{
-    top: 13rem;
-  }
-  .blogswiper .swiper-slide img {
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+
+  /* or 300% */
+
+  letter-spacing: 0.2em;
+
+  color: #000000;
+}
+.secondtext {
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 34px;
+
+  /* identical to box height, or 118% */
+
+  letter-spacing: 0.2em;
+
+  color: #9a9a9a;
+}
+
+.thirdtext {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 130px;
+
+  /* or 77% */
+
+  letter-spacing: 0.1em;
+  line-height: 100px;
+  /* or 77% */
+
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+}
+.workbox {
+  background: linear-gradient(
+    180deg,
+    #f3f3f3 -35.15%,
+    rgba(234, 234, 234, 0) 85.6%
+  );
+}
+.worktext {
+  font-weight: 800;
+  font-size: 30px;
+
+  color: rgba(0, 0, 0, 0.6);
+}
+.worksubtext {
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 0.1em;
+  text-transform: capitalize;
+  color: rgba(0, 0, 0, 0.7);
+}
+.workbutton {
+  background-color: white !important;
+  border-radius: 9999px;
+}
+.workbutton:hover {
+  background-color: #6c757d !important;
+}
+.w-96percent {
+  width: 96%;
+}
+.servicetext {
+  font-weight: 700;
+  font-size: 16px;
+
+  color: rgba(0, 0, 0, 0.6);
+}
+.testitext {
+  font-size: 30px;
+
+  color: #ffffff;
+
+  text-align: center;
+  letter-spacing: 0.2em;
+  font-weight: 600;
+}
+.testtext2 {
+  font-size: 24px;
+  letter-spacing: 0.1em;
+
+  color: #ffffff;
+}
+.tt3 {
+  color: rgba(255, 255, 255, 0.7);
+  font-weight: 400;
+  font-size: 14px;
+}
+.text8 {
+  font-size: 5rem;
+}
+.text4 {
+  font-size: 3rem;
+}
+.ls1 {
+  letter-spacing: 1rem;
+}
+.h-500px {
+  height: 500px;
+}
+.topworkswiper .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 8rem;
+
+  object-fit: contain;
+}
+.workimgbox {
+  border: 4px solid rgba(90, 90, 90, 0.05);
+}
+.topworkswiper {
+  top: 250px;
+}
+.topworkswiper .swiper {
+  height: 250px;
+}
+.h-600px {
+  height: 500px;
+}
+.swiper-pagination-bullet-active {
+  background-color: #969696 !important;
+}
+.topworkswiper .swiper-pagination-bullet {
+  top: 13rem;
+}
+.blogswiper .swiper-slide img {
   height: 300px;
   width: 100%;
   object-fit: cover;
-  }
-  .zoom {
-  transition:  transform .2s;
+}
+.zoom {
+  transition: transform 0.2s;
   transform: scale(0.8);
-  }
-  .zoom:hover{
-    transform: scale(0.9);
-  }
-  .shadowblog{
-    box-shadow: 2px 2px 20px 8px rgba(0, 0, 0, 0.05);
-  }
-  .testswiper .swiper-pagination-bullet{
-    background-color: #969696;
-  }
-  .h360px{
-    height: 360px;
-  }
-  .secondbox{
-    background: rgba(0, 0, 0, 0.1);
-  }
-  .Ideas{
-    background-image: url(../../img/coverimg.png);
-              background-repeat: repeat;
-              -webkit-background-clip: text;
-              -webkit-text-fill-color: transparent;
-              
-              font-size: 200px;
-              letter-spacing: 0.1em;
-              font-weight: bold;
-              line-height: 173px;
-              font-weight: 800;
-              
-  }
-  .pl-10px{
-    padding-left: 10px;
-  }
+}
+.zoom:hover {
+  transform: scale(0.9);
+}
+.shadowblog {
+  box-shadow: 2px 2px 20px 8px rgba(0, 0, 0, 0.05);
+}
+.testswiper .swiper-pagination-bullet {
+  background-color: #969696;
+}
+.h360px {
+  height: 360px;
+}
+.secondbox {
+  background: rgba(0, 0, 0, 0.1);
+}
+.Ideas {
+  /* background-image: url(../../img/coverimg.png); */
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  font-size: 200px;
+  letter-spacing: 0.1em;
+  font-weight: bold;
+  line-height: 173px;
+  font-weight: 800;
+}
+.pl-10px {
+  padding-left: 10px;
+}
