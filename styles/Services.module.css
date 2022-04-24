@@ -1,0 +1,38 @@
+/* .projectbox {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0) -5.93%,
+    #c2c2c2 44.06%,
+    rgba(255, 255, 255, 0.49) 94.82%
+  );
+} */
+
+.bigtext {
+    font-family: "Source Sans 3";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+  }
+  .worktext {
+    font-weight: 800;
+    font-size: 30px;
+    /* letter-spacing: 0.2em; */
+    color: rgba(0, 0, 0, 0.6);
+  }
+  .worksubtext {
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+    text-transform: capitalize;
+    color: rgba(0, 0, 0, 0.7);
+  }
+  .tools{
+    color: #fff;
+    margin-bottom: 4rem;
+  }
+  .abouttext{
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    
+    color: rgba(0, 0, 0, 0.6);
+  }
