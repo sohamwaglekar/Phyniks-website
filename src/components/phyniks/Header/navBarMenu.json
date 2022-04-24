@@ -1,0 +1,24 @@
+{
+  "fields": [
+    {
+      "label": "About",
+      "link": "/about-us",
+      "navPanelValue": "about-us"
+    },
+    {
+      "label": "Work",
+      "link": "/work",
+      "navPanelValue": "work"
+    },
+    {
+      "label": "Clients",
+      "link": "/clients",
+      "navPanelValue": "clients"
+    },
+    {
+      "label": "Contact Us",
+      "link": "/contact-us",
+      "navPanelValue": "contact-us"
+    }
+  ]
+}

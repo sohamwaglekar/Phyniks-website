@@ -1,0 +1,16 @@
+.nav-link p {
+  margin-bottom: 0px !important;
+}
+
+.navbarhead {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 14px;
+  color: #0c2069 !important;
+}
+
+.myunderlinediv {
+  margin-top: 2rem;
+  text-decoration: underline;
+  width: 50%;
+}
