@@ -16,7 +16,14 @@ export default function Index() {
     <div className='m-4'>
       <div className='grid grid-cols-3'>
         <div className='grid col-span-1'>
-          <Image src={Logo} className={styles.logoimg} alt='Capital Setu' />
+          <Image
+            src={Logo}
+            className={`${styles.logoimg} cursor-pointer`}
+            alt='Capital Setu'
+            onClick={() => {
+              push('/');
+            }}
+          />
         </div>
         <div className={`flex col-span-2 gap-x-16 mt-2 ${styles.navbarhead}`}>
           {NavBarData.fields.map((el: any, index: any) => {
@@ -30,15 +37,18 @@ export default function Index() {
                 //     ? `${styles.navbarhead} cursor-pointer `
                 //     : `${styles.navbarhead} cursor-pointer`
                 // }`}
+                className='cursor-pointer'
                 onClick={(e) => onNavCLick(e, el)}
               >
                 {el.label}
                 <div>
-                  <div className={`${
-                  activeLink === el.navPanelValue
-                    ? `${styles.navbarhead} ${styles.blueline} `
-                    : `${styles.navbarhead} cursor-pointer`
-                }`}></div>
+                  <div
+                    className={`${
+                      activeLink === el.navPanelValue
+                        ? `${styles.navbarhead} ${styles.blueline} `
+                        : `${styles.navbarhead} cursor-pointer`
+                    }`}
+                  ></div>
                 </div>
               </div>
             );
