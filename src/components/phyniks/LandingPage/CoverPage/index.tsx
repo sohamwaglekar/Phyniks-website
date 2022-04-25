@@ -3,7 +3,7 @@ export default function Index() {
   return (
     <div>
       <div className='bg-white pb-20'>
-        <div className='bg-white w-1/2 mx-auto pb-60'>
+        <div className='bg-white lg:w-1/2 md:w-4/5 mx-auto pb-60'>
           <p className='text-xl text-gray-500 mb-0 pl-4'>Crafting</p>
           <p className={`${style.Ideas} text-xl`}>IDEAS</p>
 

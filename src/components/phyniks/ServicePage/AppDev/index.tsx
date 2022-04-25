@@ -28,7 +28,7 @@ export default function Index() {
           <p className={`${styles.worktext} text-center`}>SERVICE</p>
         </div>
       </div>
-      <div className="px-20 flex justify-between gap-4">
+      <div className="px-24 flex justify-between gap-4">
         <ul className="list-disc text-sm">
           <li>Corporate Design</li>
           <li>Logo design / logo creation</li>
@@ -79,29 +79,31 @@ export default function Index() {
           </div>
         </div>
       </div>
-      <div className="mt-16 p-8 relative">
-        <div className="projectbox py-8 px-4 border border-gray-500">
-          <p className="text-center worktext mb-8">PROJECT</p>
-          <p className="text-center worksubtext w-2/3 mx-auto">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ultrices
-            quam tortor ridiculus donec iaculis posuere egestas. Ullamcorper
-            aenean diam quam tellus augue tortor. Elementum suspendisse nisl
-            elementum sit sed morbi tempor. Etiam sagittis at imperdiet laoreet
-            venenatis tortor, dictum sit fermentum.
-          </p> 
-          <div className="mt-12 topworkswiper">
+      <div className="p-8">
+    <div className="mt-16 relative">
+      <div className="projectbox py-8 px-4 border border-gray-500">
+        <p className="text-center worktext mb-8">PROJECT</p>
+        <p className="text-center worksubtext w-2/3 mx-auto">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ultrices
+          quam tortor ridiculus donec iaculis posuere egestas. Ullamcorper
+          aenean diam quam tellus augue tortor. Elementum suspendisse nisl
+          elementum sit sed morbi tempor. Etiam sagittis at imperdiet laoreet
+          venenatis tortor, dictum sit fermentum.
+        </p>
+        <div className="mt-12 topworkswiper">
           <AppSwiper />
         </div>
-        </div>
-        <div className="absolute bottom-4 flex justify-center w-full">
-          <Button
-            variant="outline-primary"
-            className="workbutton py-1 px-4 rounded-full"
-          >
-            Primary
-          </Button>
-        </div>
       </div>
+      <div className="absolute -bottom-4 flex justify-center w-full">
+        <Button
+          variant="outline-primary"
+          className="workbutton py-1 px-4 rounded-full"
+        >
+          Primary
+        </Button>
+      </div>
+    </div>
+    </div>
       </div>
     );
   }

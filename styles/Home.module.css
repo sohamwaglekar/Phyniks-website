@@ -114,3 +114,8 @@
     flex-direction: column;
   }
 }
+@media(max-width:600px){
+.w200{
+  width: 200% !important;
+}
+}

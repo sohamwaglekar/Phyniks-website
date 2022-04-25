@@ -31,8 +31,8 @@ export default function Index() {
             </Button>
           </div>
         </div>
-        <div className='mx-auto px-16 grid grid-cols-3 gap-4 mt-20'>
-          <div className='mx-auto relative w-3/4'>
+        <div className='mx-auto lg:px-16 grid grid-cols-2 lg:grid-cols-3 gap-4 mt-20'>
+          <div className='mx-auto relative lg:w-3/4 md:w-full'>
             <div className='absolute top-0 flex justify-center w-full'>
               <Image src={s1} className={`${style.serviceimg}`} alt='' />
             </div>
@@ -50,7 +50,7 @@ export default function Index() {
               </span>
             </div>
           </div>
-          <div className='mx-auto relative w-3/4'>
+          <div className='mx-auto relative lg:w-3/4 md:w-full'>
             <div className='absolute top-0 flex justify-center w-full rounded-lg'>
               <Image src={s2} className={`${style.serviceimg}`} alt='' />
             </div>
@@ -68,7 +68,7 @@ export default function Index() {
               </span>
             </div>
           </div>
-          <div className='mx-auto relative w-3/4'>
+          <div className='mx-auto relative lg:w-3/4 md:w-full'>
             <div className='absolute top-0 flex justify-center w-full rounded-lg'>
               <Image src={s3} className={`${style.serviceimg}`} alt='' />
             </div>
@@ -86,9 +86,7 @@ export default function Index() {
               </span>
             </div>
           </div>
-        </div>
-        <div className=' px-16 grid grid-cols-3 gap-4 mt-20'>
-          <div className='mx-auto relative w-3/4'>
+          <div className='mx-auto relative lg:w-3/4 md:w-full'>
             <div className='absolute top-0 flex justify-center w-full'>
               <Image src={s4} className={`${style.serviceimg}`} alt='' />
             </div>
@@ -106,7 +104,7 @@ export default function Index() {
               </span>
             </div>
           </div>
-          <div className='mx-auto relative w-3/4'>
+          <div className='mx-auto relative lg:w-3/4 md:w-full'>
             <div className='absolute top-0 flex justify-center w-full rounded-lg'>
               <Image src={s5} className={`${style.serviceimg}`} alt='' />
             </div>
@@ -124,7 +122,7 @@ export default function Index() {
               </span>
             </div>
           </div>
-          <div className='mx-auto relative w-3/4'>
+          <div className='mx-auto relative lg:w-3/4 md:w-full'>
             <div className='absolute top-0 flex justify-center w-full rounded-lg'>
               <Image src={s6} className={`${style.serviceimg}`} alt='' />
             </div>
@@ -143,6 +141,62 @@ export default function Index() {
             </div>
           </div>
         </div>
+        {/* <div className='px-16 grid grid-cols-3 gap-4 mt-20'>
+          <div className='mx-auto relative lg:w-3/4 md:w-full'>
+            <div className='absolute top-0 flex justify-center w-full'>
+              <Image src={s4} className={`${style.serviceimg}`} alt='' />
+            </div>
+            <div className=' mt-10  shadow-md pt-3 px-3 pb-12 text-center rounded-lg'>
+              <p
+                className={`${style.servicetext} mt-12 mb-3 text-sm leading-9`}
+              >
+                DESIGN
+              </p>
+              <span className='text-xs mt-4'>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Ultrices quam tortor ridiculus donec iaculis posuere egestas.
+                Ullamcorper aenean diamquam tellus augue tortor. Elementum
+                suspendisse nisl elementum sit sed morbi tempor.
+              </span>
+            </div>
+          </div>
+          <div className='mx-auto relative lg:w-3/4 md:w-full'>
+            <div className='absolute top-0 flex justify-center w-full rounded-lg'>
+              <Image src={s5} className={`${style.serviceimg}`} alt='' />
+            </div>
+            <div className=' mt-10  shadow-md pt-3 px-3 pb-12  text-center'>
+              <p
+                className={`${style.servicetext} mt-12 mb-3 text-sm leading-9`}
+              >
+                MARKETING
+              </p>
+              <span className='text-xs mt-4'>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Ultrices quam tortor ridiculus donec iaculis posuere egestas.
+                Ullamcorper aenean diamquam tellus augue tortor. Elementum
+                suspendisse nisl elementum sit sed morbi tempor.
+              </span>
+            </div>
+          </div>
+          <div className='mx-auto relative lg:w-3/4 md:w-full'>
+            <div className='absolute top-0 flex justify-center w-full rounded-lg'>
+              <Image src={s6} className={`${style.serviceimg}`} alt='' />
+            </div>
+            <div className=' mt-10  shadow-md pt-3 px-3 pb-12  text-center'>
+              <p
+                className={`${style.servicetext} mt-12 mb-3 text-sm leading-9`}
+              >
+                SUPPORT & MAINTENANCE
+              </p>
+              <span className='text-xs '>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Ultrices quam tortor ridiculus donec iaculis posuere egestas.
+                Ullamcorper aenean diamquam tellus augue tortor. Elementum
+                suspendisse nisl elementum sit sed morbi tempor.
+              </span>
+            </div>
+          </div>
+        </div> */}
       </div>
     </div>
   );

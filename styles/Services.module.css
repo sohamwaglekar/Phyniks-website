@@ -18,8 +18,10 @@
     color: rgba(0, 0, 0, 0.7);
   }
   .tools{
-    color: #fff;
-    margin-bottom: 4rem;
+    color: #fff !important;
+    margin-bottom: 4rem !;
+    font-size: 30px;
+    font-weight: 700;
   }
   .abouttext{
     letter-spacing: 0.2em;

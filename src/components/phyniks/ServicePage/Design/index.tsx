@@ -28,7 +28,7 @@ export default function Index() {
         <p className={`${styles.worktext} text-center`}>DESIGN & PROTOTYPING</p>
       </div>
     </div>
-    <div className="px-20 flex justify-between gap-4">
+    <div className="px-24 flex justify-between gap-4">
       <ul className="list-disc text-sm">
         <li>Web Design</li>
         <li>Web Development</li>
@@ -69,7 +69,8 @@ export default function Index() {
         </div>
       </div>
     </div>
-    <div className="mt-16 p-8 relative">
+    <div className="p-8">
+    <div className="mt-16 relative">
       <div className="projectbox py-8 px-4 border border-gray-500">
         <p className="text-center worktext mb-8">PROJECT</p>
         <p className="text-center worksubtext w-2/3 mx-auto">
@@ -83,7 +84,7 @@ export default function Index() {
           <AppSwiper />
         </div>
       </div>
-      <div className="absolute bottom-4 flex justify-center w-full">
+      <div className="absolute -bottom-4 flex justify-center w-full">
         <Button
           variant="outline-primary"
           className="workbutton py-1 px-4 rounded-full"
@@ -91,6 +92,7 @@ export default function Index() {
           Primary
         </Button>
       </div>
+    </div>
     </div>
       </div>
     );
