@@ -29,38 +29,38 @@ export default function Index() {
         className='mySwiper'
       >
         <SwiperSlide>
-          <div className={`p-4 rounded-3xl ${style.workimgbox} `}>
-            <Image src={s1} alt='' />
+          <div className={`p-4 rounded-3xl ${style.workImagebox} `}>
+            <Image src={s1} alt='' className={style.workSwiperImg} />
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className={`p-4 rounded-3xl ${style.workimgbox} `}>
-            <Image src={s2} alt='' />
+          <div className={`p-4 rounded-3xl ${style.workImagebox} `}>
+            <Image src={s2} alt='' className={style.workSwiperImg} />
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className={`p-4 rounded-3xl ${style.workimgbox} `}>
-            <Image src={s3} alt='' />
+          <div className={`p-4 rounded-3xl ${style.workImagebox} `}>
+            <Image src={s3} alt='' className={style.workSwiperImg} />
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className={`p-4 rounded-3xl ${style.workimgbox} `}>
-            <Image src={s4} alt='' />
+          <div className={`p-4 rounded-3xl ${style.workImagebox} `}>
+            <Image src={s4} alt='' className={style.workSwiperImg} />
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className={`p-4 rounded-3xl ${style.workimgbox} `}>
-            <Image src={s5} alt='' />
+          <div className={`p-4 rounded-3xl ${style.workImagebox} `}>
+            <Image src={s5} alt='' className={style.workSwiperImg} />
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className={`p-4 rounded-3xl ${style.workimgbox} `}>
-            <Image src={s6} alt='' />
+          <div className={`p-4 rounded-3xl ${style.workImagebox} `}>
+            <Image src={s6} alt='' className={style.workSwiperImg} />
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className={`p-4 rounded-3xl ${style.workimgbox} `}>
-            <Image src={s8} alt='' />
+          <div className={`p-4 rounded-3xl ${style.workImagebox} `}>
+            <Image src={s8} alt='' className={style.workSwiperImg} />
           </div>
         </SwiperSlide>
       </Swiper>

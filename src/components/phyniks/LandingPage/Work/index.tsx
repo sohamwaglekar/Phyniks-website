@@ -3,8 +3,8 @@ import style from "../../../../../styles/Landing.module.css";
 import WorkSwiper from "../WorkSwiper";
 export default function Index() {
     return (
-        <div>
-            <div className={`${style.workbox} p-8 relative`}>
+        <div className={`${style.workbox} p-8`}>
+            <div className="relative">
         <div className={`py-3 px-4 border border-gray-500 ${style.h600px}`}>
           <p className={`text-center ${style.worktext}`}>WORK</p>
           <p className={`text-center ${style.worksubtext} w-2/3 mx-auto`}>
@@ -19,7 +19,7 @@ export default function Index() {
         </div>
         </div>
         
-        <div className={`absolute bottom-4 flex justify-center ${style.w96percent}`}>
+        <div className={`absolute w-full -bottom-4 flex justify-center`}>
           <Button
             variant="outline-primary"
             className={`${style.workbutton} py-1 px-4 rounded-full`}
