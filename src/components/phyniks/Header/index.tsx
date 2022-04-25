@@ -16,19 +16,23 @@ export default function Index() {
     <div className='m-4'>
       <div className='grid grid-cols-3'>
         <div className='grid col-span-1'>
-          <Image
-            src={Logo}
-            className={`${styles.logoimg} cursor-pointer`}
-            alt='Capital Setu'
+          <div
+            className='cursor-pointer'
             onClick={() => {
               push('/');
             }}
-          />
+          >
+            <Image
+              src={Logo}
+              width={150}
+              height={45}
+              className={`${styles.logoimg} `}
+              alt='Capital Setu'
+            />
+          </div>
         </div>
         <div className={`flex col-span-2 gap-x-16 mt-2 ${styles.navbarhead}`}>
           {NavBarData.fields.map((el: any, index: any) => {
-            console.log(activeLink, el.navPanelValue);
-
             return (
               <div
                 key={index}

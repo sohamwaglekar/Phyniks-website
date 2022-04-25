@@ -49,12 +49,14 @@
 .worktext {
   font-weight: 800;
   font-size: 30px;
+  letter-spacing: 12px;
 
   color: rgba(0, 0, 0, 0.6);
 }
 .worksubtext {
   font-weight: 400;
   font-size: 14px;
+  line-height: 24px;
   letter-spacing: 0.1em;
   text-transform: capitalize;
   color: rgba(0, 0, 0, 0.7);
@@ -71,7 +73,8 @@
 }
 .servicetext {
   font-weight: 700;
-  font-size: 16px;
+  font-size: 32px;
+  letter-spacing: 6px;
 
   color: rgba(0, 0, 0, 0.6);
 }
@@ -96,7 +99,8 @@
   font-size: 14px;
 }
 .text8 {
-  font-size: 5rem;
+  font-size: 8rem;
+  letter-spacing: 1rem;
 }
 .text4 {
   font-size: 3rem;
@@ -107,14 +111,14 @@
 .h-500px {
   height: 500px;
 }
-.h14rem{
+.h14rem {
   height: 14rem;
 }
 .workSwiperImg {
   display: block !important;
   width: 100% !important;
-  height: 8rem !important; 
-  min-height: 0px !important; 
+  height: 8rem !important;
+  min-height: 0px !important;
   max-height: 0px !important;
   object-fit: contain !important;
   margin: 0px !important;
@@ -130,7 +134,7 @@
   height: 250px;
 }
 .h600px {
-  height: 500px;
+  height: 560px;
 }
 .swiper-pagination-bullet-active {
   background-color: #fff !important;
@@ -181,15 +185,13 @@
 .pl-10px {
   padding-left: 10px;
 }
-.serviceimg{
-  
-  
+.serviceimg {
   margin: auto !important;
   bottom: initial !important;
   width: 5rem !important;
-   height: auto !important;
-   min-width: 0px !important;
-   max-width: 100% !important;
+  height: auto !important;
+  min-width: 0px !important;
+  max-width: 100% !important;
   min-height: 0px !important;
-   max-height: 100%;
+  max-height: 100%;
 }
