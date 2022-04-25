@@ -3,13 +3,13 @@ export default function Index() {
   return (
     <div>
       <div className='bg-white pb-20'>
-        <div className='bg-white lg:w-1/2 md:w-4/5 mx-auto pb-60'>
+        <div className='bg-white lg:w-1/2 md:w-full  lg:mx-auto lg:px-0 md:px-12 px-8 pb-60'>
           <p className='text-xl text-gray-500 mb-0 pl-4'>Crafting</p>
           <p className={`${style.Ideas} text-xl`}>IDEAS</p>
 
           <p className='text-3xl font-bold pl-4'>TO LIFE</p>
         </div>
-        <div className='mx-20'>
+        <div className='px-20 w-full'>
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt
           fuga facilis vel hic explicabo molestias numquam error veritatis
           sequi, temporibus nihil est nemo vero assumenda tempora officia

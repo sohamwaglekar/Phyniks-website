@@ -9,7 +9,7 @@ export default function Index() {
     <div className='mt-20'>
       <Cover />
       <Work />
-      <Service />
+      {/* <Service /> */}
       <Testinomial />
 
       <Blog />
